@@ -21,6 +21,6 @@ describe('Contact menu', () => {
         await btnSubmit.click();
     
         const alert = await successMessage.getText();
-        await expect(alert).toEqual('Thank for contacting us! We will be in touch with you shortly');
+        await expect(alert).toEqual('Thanks for contacting us! We will be in touch with you shortly');
     })
 })
